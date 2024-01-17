@@ -105,7 +105,7 @@ st.pyplot(fig)
 st.write("### Средние чаевые")
 st.write(sorted_mean_tips)
 
-st.write("#### Динамическая версия линейного графика", unsafe_allow_html=True)
+st.write("#### Интерактивная версия линейного графика", unsafe_allow_html=True)
 st.line_chart(
     sorted_mean_tips,
     x="time_order",
@@ -114,7 +114,7 @@ st.line_chart(
     use_container_width=True,
 )
 
-st.write("#### Динамическая версия графика типа scatter_chart", unsafe_allow_html=True)
+st.write("#### Интерактивная версия графика типа scatter_chart", unsafe_allow_html=True)
 st.scatter_chart(
     sorted_tips,
     x="time_order",
@@ -292,7 +292,7 @@ st.write(
 )
 st.pyplot(fig)
 
-st.write("#### Динамическая версия графика типа scatter_chart", unsafe_allow_html=True)
+st.write("#### Интерактивная версия графика типа scatter_chart", unsafe_allow_html=True)
 st.scatter_chart(
     sorted_tips,
     x="total_bill",
@@ -407,7 +407,7 @@ st.write(
 )
 st.pyplot(fig)
 
-st.write("#### Динамическая версия линейного графика")
+st.write("#### Интерактивная версия линейного графика")
 st.line_chart(
     sorted_tips,
     x="week_day",
@@ -478,7 +478,7 @@ st.write(
 )
 st.pyplot(fig)
 
-st.write("#### Динамическая версия графика типа scatter_chart")
+st.write("#### Интерактивная версия графика типа scatter_chart")
 st.scatter_chart(
     sorted_tips,
     x="tip",
@@ -760,7 +760,7 @@ st.write(
 st.pyplot(fig)
 
 st.write(
-    "#### Динамическая версия графика типа bar_chart, показывающая сумму счетов по дням с разбивкой на обед и ужин"
+    "#### Интерактивная версия графика типа bar_chart, показывающая сумму счетов по дням с разбивкой на обед и ужин"
 )
 st.bar_chart(
     sorted_tips,
